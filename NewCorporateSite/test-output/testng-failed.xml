@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [MobileTesting]">
+  <listeners>
+    <listener class-name="Listener.TestListener"/>
+  </listeners>
+  <test name="iphonexLandscape(failed)">
+    <parameter name="browser" value="IPADlandscape"/>
+    <classes>
+      <class name="corporatesite.testcases.TC60VerifyLinkUnderCloudComputingPage">
+        <methods>
+          <include name="setApplication"/>
+          <include name="VerifyLinkNamesUnderCloudComputingPage"/>
+        </methods>
+      </class> <!-- corporatesite.testcases.TC60VerifyLinkUnderCloudComputingPage -->
+    </classes>
+  </test> <!-- iphonexLandscape(failed) -->
+</suite> <!-- Failed suite [MobileTesting] -->

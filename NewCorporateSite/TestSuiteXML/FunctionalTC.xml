@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FunctionalTesting" thread-count="2">
+
+ 
+
+       <listeners>
+
+              <listener class-name="Listener.TestListener" />
+
+       </listeners>
+
+ 
+
+              <test name="ChromeTest">
+
+              <parameter name="browser" value="Chrome" />
+
+              <classes>
+
+ 
+
+<!--                <class name="corporatesite.testcases.TC01VerifyContactUsPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC02VerifyContactUSFormVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC03VerfiyContactUsForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC04VerifyContactUsStaticFields" /> -->
+
+<!--                <class name="corporatesite.testcases.TC05VerifyContactUsFieldVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC06VerifyHomePage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC07VerifyHomePageMenu" /> -->
+
+<!--                <class name="corporatesite.testcases.TC08VerfiyHomePageAboutCompanyReadMoreBtnOnClick" /> -->
+
+<!--                <class name="corporatesite.testcases.TC09VerifyHomePageServices" /> -->
+
+<!--                <class name="corporatesite.testcases.TC10VerfiyHomePageIntranetSolutionBtn" /> -->
+
+<!--                <class name="corporatesite.testcases.TC11VerifyHomePageCaseStudieDownloadFormVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC12VerifyHomePageCaseStudieDownloadFormSubmit" /> -->
+
+<!--                <class name="corporatesite.testcases.TC13VerifyHomePageContactUsFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC14VerifyHomePageContactUsFormOnSubmit" /> -->
+
+<!--                <class name="corporatesite.testcases.TC15VerifyCareerPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC16VerifyCareerPageTechPositions" /> -->
+
+<!--                <class name="corporatesite.testcases.TC17VerifyCareerPageSalesMarketing" /> -->
+
+<!--                <class name="corporatesite.testcases.TC18VerifyCareerPageAccountFinance" /> -->
+
+<!--                <class name="corporatesite.testcases.TC19VerifyCareerPageHumanResource" /> -->
+
+<!--                <class name="corporatesite.testcases.TC20VerifySolutionPageIntranetSolution" /> -->
+
+<!--                <class name="corporatesite.testcases.TC21VerifyServiceEnterPriseDynamicPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC22VerifyServiceEnterPriseDynamicVideo" /> -->
+
+<!--                <class name="corporatesite.testcases.TC23VerifyServiceEnterPriseDynamicFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC24VerifyServiceEnterPriseDynamicForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC25VerifyServiceEnterPriseBusinessCentral" /> -->
+
+<!--                <class name="corporatesite.testcases.TC26VerifyServiceEnterPriseBCVideo" /> -->
+
+<!--                <class name="corporatesite.testcases.TC27VerifyServiceEnterPriseBCFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC28VerifyServiceEnterPriseBCForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC29VerifyServiceEnterPriseMicrosoftSP" /> -->
+
+<!--                <class name="corporatesite.testcases.TC30VerifyServiceEnterPriseMicrosoftSPFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC31VerifyServiceEnterPriseMicrosoftSPForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC32VerfiyServiceEnterPriseServiceNow" /> -->
+
+<!--                <class name="corporatesite.testcases.TC33VerifyServiceEnterPriseServiceNowFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC34VerifyEnterPriseServiceNowForm" /> -->
+
+ 
+
+<!--                       <class name="corporatesite.testcases.TC35VerifyAboutUSClickMenu" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC36VerifyAboutUsClickContactUs" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC37VerifyAboutUsClickSubmenu" />              -->
+
+                          
+
+<!--                       <class name="corporatesite.testcases.TC38VerifybusinessintelligencePage"/> -->
+
+<!--                       <class name="corporatesite.testcases.TC39VerifybusinessintelligencVldMsg" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC40VerfiybusinessintelligenceForm" />   -->
+
+<!--                       <class name="corporatesite.testcases.TC41VerifybusinessintelligenceFieldVld" /> -->
+
+                                 
+
+<!--                       <class name="corporatesite.testcases.TC42VerifyManageSupportPage"/>  -->
+
+<!--                       <class name="corporatesite.testcases.TC42VerifyManagesupport_DatabasePage"/> -->
+
+<!--                       <class name="corporatesite.testcases.TC43ManageSupport_DatabaseformVldMsg" />  -->
+
+<!--                       <class name="corporatesite.testcases.TC44VerfiyManagesupport_DatabaseForm" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC45VerfiyManagesupport_DatabaseFieldVld" /> -->
+
+                          
+
+                          
+
+<!--                       <class name="corporatesite.testcases.TC46VerifyManageSupportSharepointPage" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC47VerifyManageSupport_SharepointVldMsg" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC48VerfiyManageSupport_SharepointForm" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC49VerfiyManageSupport_SharepointFieldVld" /> -->
+
+             
+
+<!--                       <class name="corporatesite.testcases.TC50VerifyManagesupport_CloudPage" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC51ManageSupport_CloudformVldMsg" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC53VerfiyManagesupport_cloudForm"/> -->
+
+<!--                       <class name="corporatesite.testcases.TC54VerfiyManagesupport_cloudFieldVld" /> -->
+
+ 
+
+ 
+
+ 
+
+<!--                       <class name="corporatesite.testcases.TC55VerifyProAut_NintexAutoPage" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC56VerifyProAut_NintexAutoformvldmsg" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC57VerifyProAut_NintexAutoform" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC58VerifyProAut_NintexFieldVld" /> -->
+
+ 
+
+ 
+
+ 
+
+<!--                       <class name="corporatesite.testcases.TC59VerifyProcessautomation_powerplatformPage" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC60VerifyProcessautomation_powerplatformvldmsg"  /> -->
+
+<!--                       <class name="corporatesite.testcases.TC61VerifyProcessautomation_powerplatform" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC62VerifyProcessautomation_powerplatformfieldvld" /> -->
+
+ 
+
+                                 
+
+<!--                       <class name="corporatesite.testcases.TC63VerifyProAut_RoboticprocessautomationPage" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC64VerifyProAut_Roboticprocessautomationform" /> -->
+
+<!--                       <class       name="corporatesite.testcases.TC65VerifyProAut_RoboticprocessautomationVldMsg" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC66VerifyProAut_RoboticprocessautomationFieldVld" /> -->
+
+                          
+
+ 
+
+             
+
+<!--                       <class name="corporatesite.testcases.TC67ToverifypPro_Aut_SharepointworfklowPage" />  -->
+
+<!--                       <class name="corporatesite.testcases.TC68ToverifypPro_Aut_SharepointworkflowVldMsg" />      -->
+
+<!--                       <class name="corporatesite.testcases.TC69ToverifypPro_Aut_SharepointworflowForm" />   -->
+
+<!--                       <class name="corporatesite.testcases.TC70ToverifypPro_Aut_SharepointworkflowFielddVld" />   -->
+
+ 
+
+<!--                <class name="corporatesite.testcases.TC35VerifyAboutUSClickMenu" /> -->
+
+<!--                <class name="corporatesite.testcases.TC36VerifyAboutUsClickContactUs" /> -->
+
+<!--                <class name="corporatesite.testcases.TC37VerifyAboutUsClickSubmenu" />                             -->
+
+<!--                <class name="corporatesite.testcases.TC38VerifybusinessintelligencePage"/> -->
+
+<!--                <class name="corporatesite.testcases.TC39VerifybusinessintelligencVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC40VerfiybusinessintelligenceForm" />   -->
+
+<!--                <class name="corporatesite.testcases.TC41VerifybusinessintelligenceFieldVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC42VerifyManageSupportPage"/>  -->
+
+<!--                <class name="corporatesite.testcases.TC42VerifyManagesupport_DatabasePage"/> -->
+
+<!--                <class name="corporatesite.testcases.TC43ManageSupport_DatabaseformVldMsg" />     -->
+
+<!--                <class name="corporatesite.testcases.TC44VerfiyManagesupport_DatabaseForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC45VerfiyManagesupport_DatabaseFieldVld" />                                                    -->
+
+<!--                <class name="corporatesite.testcases.TC46VerifyManageSupportSharepointPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC47VerifyManageSupport_SharepointVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC48VerfiyManageSupport_SharepointForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC49VerfiyManageSupport_SharepointFieldVld" />          -->
+
+<!--                <class name="corporatesite.testcases.TC50VerifyManagesupport_CloudPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC51ManageSupport_CloudformVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC53VerfiyManagesupport_cloudForm"/> -->
+
+<!--                <class name="corporatesite.testcases.TC54VerfiyManagesupport_cloudFieldVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC55VerifyProAut_NintexAutoPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC56VerifyProAut_NintexAutoformvldmsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC57VerifyProAut_NintexAutoform" /> -->
+
+<!--                <class name="corporatesite.testcases.TC58VerifyProAut_NintexFieldVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC59VerifyProcessautomation_powerplatformPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC60VerifyProcessautomation_powerplatformvldmsg"  /> -->
+
+<!--                <class name="corporatesite.testcases.TC61VerifyProcessautomation_powerplatform" /> -->
+
+<!--                <class name="corporatesite.testcases.TC62VerifyProcessautomation_powerplatformfieldvld" />                       -->
+
+<!--                <class name="corporatesite.testcases.TC63VerifyProAut_RoboticprocessautomationPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC64VerifyProAut_Roboticprocessautomationform" /> -->
+
+<!--                <class name="corporatesite.testcases.TC65VerifyProAut_RoboticprocessautomationVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC66VerifyProAut_RoboticprocessautomationFieldVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC67ToverifypPro_Aut_SharepointworfklowPage" />  -->
+
+<!--                <class name="corporatesite.testcases.TC68ToverifypPro_Aut_SharepointworkflowVldMsg" />      -->
+
+<!--                <class name="corporatesite.testcases.TC69ToverifypPro_Aut_SharepointworflowForm" />   -->
+
+<!--                <class name="corporatesite.testcases.TC70ToverifypPro_Aut_SharepointworkflowFielddVld" />   -->
+
+<!--                <class name="corporatesite.testcases.TC71ToverifyApplicationDevelopementPage" />      -->
+
+<!--                <class name="corporatesite.testcases.TC72ApplicationDevelopementPageVldMsg" />     -->
+
+<!--                <class name="corporatesite.testcases.TC73ApplicationDevelopementPageForm" />       -->
+
+<!--                <class name="corporatesite.testcases.TC74ApplicationDevelopementPageFieldVld" />                    -->
+
+<!--                <class name="corporatesite.testcases.TC75VerifyProcessautomation_SharepointinfopatPage" />  -->
+
+<!--                <class name="corporatesite.testcases.TC76VerifyProcessautomation_Infopath_FormvalidationOnBlank" />       -->
+
+<!--                <class name="corporatesite.testcases.TC77VerifyProcessautomation_Infopath_Form" />    -->
+
+<!--                <class name="corporatesite.testcases.TC78ApplicationDevelopementverifySPmigtrationVldMsg"/> -->
+
+<!--                <class name="corporatesite.testcases.TC79VerifyResource_WhitepaperPage"/> -->
+
+<!--                <class name="corporatesite.testcases.TC80VerifyResource_WhitepaperPageClickDownload"/> -->
+
+<!--                <class name="corporatesite.testcases.TC81VerifyResource_NewsRoomPage"/> -->
+
+<!--                <class name="corporatesite.testcases.TC82VerifyResource_NewsRoomPageClickNews"/> -->
+
+<!--                <class name="corporatesite.testcases.TC83VerifyResourceBlogPage" /> -->
+
+                                 
+
+             
+
+               <class name="corporatesite.testcases.TC49VerifyPhoneNumber" />
+
+               <class name="corporatesite.testcases.TC50VerifyEmailPopup" />
+
+<!--                <class name="corporatesite.testcases.TC86VerifyWorkingDaysTime" /> -->
+
+<!--                <class name="corporatesite.testcases.TC87VerifySocialNetworkingLinks" /> -->
+
+<!--                <class name="corporatesite.testcases.TC88VerifyLinksUnderRecentPosts" /> -->
+
+<!--                <class name="corporatesite.testcases.TC89VerifyLinksUnderPostsOnClick" /> -->
+
+<!--                <class name="corporatesite.testcases.TC90VerifyDatesUnderRecentPosts" /> -->
+
+<!--                <class name="corporatesite.testcases.TC91VerifyLinksOnClickOfImgUnderRecentPosts" /> -->
+
+<!--                <class name="corporatesite.testcases.TC92VerifyLinkNamesUnderUsefulLinks" /> -->
+
+<!--                <class name="corporatesite.testcases.TC93VerifyUsefulLinksOnClick" /> -->
+
+<!--                <class name="corporatesite.testcases.TC94VerifySocialLinksFooter" /> -->
+
+<!--                <class name="corporatesite.testcases.TC95VerifyLinkUnderCloudComputingPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC96VerifyMicrosoftAzureContactUs" /> -->
+
+<!--                <class name="corporatesite.testcases.TC97VerifyMicrosoft365ContactUs" /> -->
+
+<!--                <class name="corporatesite.testcases.TC98VerifyAmazonWebServicesContactUs" /> -->
+
+<!--                <class name="corporatesite.testcases.TC99VerifyServicesSubMenuClick" /> -->
+
+                    
+
+             
+
+              </classes>
+
+       </test>
+
+ 
+
+       <test name="EdgeTest">
+
+              <parameter name="browser" value="EdgeTest" />
+
+              <classes>
+
+<!--                <class name="corporatesite.testcases.TC01VerifyContactUsPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC02VerifyContactUSFormVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC03VerfiyContactUsForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC04VerifyContactUsStaticFields" /> -->
+
+<!--                <class name="corporatesite.testcases.TC05VerifyContactUsFieldVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC06VerifyHomePage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC07VerifyHomePageMenu" /> -->
+
+<!--                <class name="corporatesite.testcases.TC08VerfiyHomePageAboutCompanyReadMoreBtnOnClick" /> -->
+
+<!--                <class name="corporatesite.testcases.TC09VerifyHomePageServices" /> -->
+
+<!--                <class name="corporatesite.testcases.TC10VerfiyHomePageIntranetSolutionBtn" /> -->
+
+<!--                <class name="corporatesite.testcases.TC11VerifyHomePageCaseStudieDownloadFormVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC12VerifyHomePageCaseStudieDownloadFormSubmit" /> -->
+
+<!--                <class name="corporatesite.testcases.TC13VerifyHomePageContactUsFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC14VerifyHomePageContactUsFormOnSubmit" /> -->
+
+<!--                <class name="corporatesite.testcases.TC15VerifyCareerPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC16VerifyCareerPageTechPositions" /> -->
+
+<!--                <class name="corporatesite.testcases.TC17VerifyCareerPageSalesMarketing" /> -->
+
+<!--                <class name="corporatesite.testcases.TC18VerifyCareerPageAccountFinance" /> -->
+
+<!--                <class name="corporatesite.testcases.TC19VerifyCareerPageHumanResource" /> -->
+
+<!--                <class name="corporatesite.testcases.TC20VerifySolutionPageIntranetSolution" /> -->
+
+<!--                <class name="corporatesite.testcases.TC21VerifyServiceEnterPriseDynamicPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC22VerifyServiceEnterPriseDynamicVideo" /> -->
+
+<!--                <class name="corporatesite.testcases.TC23VerifyServiceEnterPriseDynamicFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC24VerifyServiceEnterPriseDynamicForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC25VerifyServiceEnterPriseBusinessCentral" /> -->
+
+<!--                <class name="corporatesite.testcases.TC26VerifyServiceEnterPriseBCVideo" /> -->
+
+<!--                <class name="corporatesite.testcases.TC27VerifyServiceEnterPriseBCFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC28VerifyServiceEnterPriseBCForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC29VerifyServiceEnterPriseMicrosoftSP" /> -->
+
+<!--                <class name="corporatesite.testcases.TC30VerifyServiceEnterPriseMicrosoftSPFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC31VerifyServiceEnterPriseMicrosoftSPForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC32VerfiyServiceEnterPriseServiceNow" /> -->
+
+<!--                <class name="corporatesite.testcases.TC33VerifyServiceEnterPriseServiceNowFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC34VerifyEnterPriseServiceNowForm" /> -->
+
+ 
+
+<!--                <class name="corporatesite.testcases.TC35VerifyAboutUSClickMenu" /> -->
+
+<!--                <class name="corporatesite.testcases.TC36VerifyAboutUsClickContactUs" /> -->
+
+<!--                <class name="corporatesite.testcases.TC37VerifyAboutUsClickSubmenu" />         -->               
+
+<!--                <class name="corporatesite.testcases.TC38VerifybusinessintelligencePage"/> -->
+
+<!--                <class name="corporatesite.testcases.TC39VerifybusinessintelligencVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC40VerfiybusinessintelligenceForm" />   -->
+
+<!--                <class name="corporatesite.testcases.TC41VerifybusinessintelligenceFieldVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC42VerifyManageSupportPage"/>  -->
+
+<!--                <class name="corporatesite.testcases.TC42VerifyManagesupport_DatabasePage"/> -->
+
+<!--                <class name="corporatesite.testcases.TC43ManageSupport_DatabaseformVldMsg" />     -->
+
+<!--                <class name="corporatesite.testcases.TC44VerfiyManagesupport_DatabaseForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC45VerfiyManagesupport_DatabaseFieldVld" /> -->                                               
+
+<!--                <class name="corporatesite.testcases.TC46VerifyManageSupportSharepointPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC47VerifyManageSupport_SharepointVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC48VerfiyManageSupport_SharepointForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC49VerfiyManageSupport_SharepointFieldVld" /> -->           
+
+<!--                <class name="corporatesite.testcases.TC50VerifyManagesupport_CloudPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC51ManageSupport_CloudformVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC53VerfiyManagesupport_cloudForm"/> -->
+
+<!--                <class name="corporatesite.testcases.TC54VerfiyManagesupport_cloudFieldVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC55VerifyProAut_NintexAutoPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC56VerifyProAut_NintexAutoformvldmsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC57VerifyProAut_NintexAutoform" /> -->
+
+<!--                <class name="corporatesite.testcases.TC58VerifyProAut_NintexFieldVld" /> -->
+
+<!--                <class       name="corporatesite.testcases.TC59VerifyProcessautomation_powerplatformPage" /> -->
+
+<!--                <class       name="corporatesite.testcases.TC60VerifyProcessautomation_powerplatformvldmsg"  /> -->
+
+<!--                <class name="corporatesite.testcases.TC61VerifyProcessautomation_powerplatform" /> -->
+
+<!--                <class name="corporatesite.testcases.TC62VerifyProcessautomation_powerplatformfieldvld" /> -->                         
+
+<!--                <class name="corporatesite.testcases.TC63VerifyProAut_RoboticprocessautomationPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC64VerifyProAut_Roboticprocessautomationform" /> -->
+
+<!--                <class       name="corporatesite.testcases.TC65VerifyProAut_RoboticprocessautomationVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC66VerifyProAut_RoboticprocessautomationFieldVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC67ToverifypPro_Aut_SharepointworfklowPage" />  -->
+
+<!--                <class name="corporatesite.testcases.TC68ToverifypPro_Aut_SharepointworkflowVldMsg" />      -->
+
+<!--                <class name="corporatesite.testcases.TC69ToverifypPro_Aut_SharepointworflowForm" />   -->
+
+<!--                <class name="corporatesite.testcases.TC70ToverifypPro_Aut_SharepointworkflowFielddVld" />   -->
+
+<!--                <class name="corporatesite.testcases.TC71ToverifyApplicationDevelopementPage" />      -->
+
+<!--                <class name="corporatesite.testcases.TC72ApplicationDevelopementPageVldMsg" />     -->
+
+<!--                <class name="corporatesite.testcases.TC73ApplicationDevelopementPageForm" />       -->
+
+<!--                <class name="corporatesite.testcases.TC74ApplicationDevelopementPageFieldVld" />      -->         
+
+<!--                <class name="corporatesite.testcases.TC75VerifyProcessautomation_SharepointinfopatPage" />  -->
+
+<!--                <class name="corporatesite.testcases.TC76VerifyProcessautomation_Infopath_FormvalidationOnBlank" />       -->
+
+<!--                <class name="corporatesite.testcases.TC77VerifyProcessautomation_Infopath_Form" />    -->
+
+<!--                <class name="corporatesite.testcases.TC78ApplicationDevelopementverifySPmigtrationVldMsg"/> -->
+
+<!--                <class name="corporatesite.testcases.TC79VerifyResource_WhitepaperPage"/> -->
+
+<!--                <class name="corporatesite.testcases.TC80VerifyResource_WhitepaperPageClickDownload"/> -->
+
+<!--                <class name="corporatesite.testcases.TC81VerifyResource_NewsRoomPage"/> -->
+
+<!--                <class name="corporatesite.testcases.TC82VerifyResource_NewsRoomPageClickNews"/> -->
+
+<!--                <class name="corporatesite.testcases.TC83VerifyResourceBlogPage" /> -->
+
+                                        
+
+<!--                      <class name="corporatesite.testcases.TC84VerifyPhoneNumber" /> -->
+
+<!--                      <class name="corporatesite.testcases.TC85VerifyEmailPopup" /> -->
+
+<!--                <class name="corporatesite.testcases.TC86VerifyWorkingDaysTime" /> -->
+
+<!--                <class name="corporatesite.testcases.TC87VerifySocialNetworkingLinks" /> -->
+
+<!--                <class name="corporatesite.testcases.TC88VerifyLinksUnderRecentPosts" /> -->
+
+<!--                <class name="corporatesite.testcases.TC89VerifyLinksUnderPostsOnClick" /> -->
+
+<!--                <class name="corporatesite.testcases.TC90VerifyDatesUnderRecentPosts" /> -->
+
+<!--                <class name="corporatesite.testcases.TC91VerifyLinksOnClickOfImgUnderRecentPosts" /> -->
+
+<!--                <class name="corporatesite.testcases.TC92VerifyLinkNamesUnderUsefulLinks" /> -->
+
+<!--                <class name="corporatesite.testcases.TC93VerifyUsefulLinksOnClick" /> -->
+
+<!--                <class name="corporatesite.testcases.TC94VerifySocialLinksFooter" /> -->
+
+<!--                <class name="corporatesite.testcases.TC95VerifyLinkUnderCloudComputingPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC96VerifyMicrosoftAzureContactUs" /> -->
+
+<!--                <class name="corporatesite.testcases.TC97VerifyMicrosoft365ContactUs" /> -->
+
+<!--                <class name="corporatesite.testcases.TC98VerifyAmazonWebServicesContactUs" /> -->
+
+<!--                <class name="corporatesite.testcases.TC99VerifyServicesSubMenuClick" /> -->
+
+                    
+
+             
+
+              </classes>
+
+       </test>
+
+ 
+
+       <test name="FirefoxTest">
+
+              <parameter name="browser" value="Firefox" />
+
+              <classes>
+
+<!--                <class name="corporatesite.testcases.TC01VerifyContactUsPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC02VerifyContactUSFormVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC03VerfiyContactUsForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC04VerifyContactUsStaticFields" /> -->
+
+<!--                <class name="corporatesite.testcases.TC05VerifyContactUsFieldVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC06VerifyHomePage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC07VerifyHomePageMenu" /> -->
+
+<!--                <class name="corporatesite.testcases.TC08VerfiyHomePageAboutCompanyReadMoreBtnOnClick" /> -->
+
+<!--                <class name="corporatesite.testcases.TC09VerifyHomePageServices" /> -->
+
+<!--                <class name="corporatesite.testcases.TC10VerfiyHomePageIntranetSolutionBtn" /> -->
+
+<!--                <class name="corporatesite.testcases.TC11VerifyHomePageCaseStudieDownloadFormVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC12VerifyHomePageCaseStudieDownloadFormSubmit" /> -->
+
+<!--                <class name="corporatesite.testcases.TC13VerifyHomePageContactUsFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC14VerifyHomePageContactUsFormOnSubmit" /> -->
+
+<!--                <class name="corporatesite.testcases.TC15VerifyCareerPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC16VerifyCareerPageTechPositions" /> -->
+
+<!--                <class name="corporatesite.testcases.TC17VerifyCareerPageSalesMarketing" /> -->
+
+<!--                <class name="corporatesite.testcases.TC18VerifyCareerPageAccountFinance" /> -->
+
+<!--                <class name="corporatesite.testcases.TC19VerifyCareerPageHumanResource" /> -->
+
+<!--                <class name="corporatesite.testcases.TC20VerifySolutionPageIntranetSolution" /> -->
+
+<!--                <class name="corporatesite.testcases.TC21VerifyServiceEnterPriseDynamicPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC22VerifyServiceEnterPriseDynamicVideo" /> -->
+
+<!--                <class name="corporatesite.testcases.TC23VerifyServiceEnterPriseDynamicFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC24VerifyServiceEnterPriseDynamicForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC25VerifyServiceEnterPriseBusinessCentral" /> -->
+
+<!--                <class name="corporatesite.testcases.TC26VerifyServiceEnterPriseBCVideo" /> -->
+
+<!--                <class name="corporatesite.testcases.TC27VerifyServiceEnterPriseBCFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC28VerifyServiceEnterPriseBCForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC29VerifyServiceEnterPriseMicrosoftSP" /> -->
+
+<!--                <class name="corporatesite.testcases.TC30VerifyServiceEnterPriseMicrosoftSPFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC31VerifyServiceEnterPriseMicrosoftSPForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC32VerfiyServiceEnterPriseServiceNow" /> -->
+
+<!--                <class name="corporatesite.testcases.TC33VerifyServiceEnterPriseServiceNowFormVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC34VerifyEnterPriseServiceNowForm" /> -->
+
+ 
+
+<!--                       <class name="corporatesite.testcases.TC35VerifyAboutUSClickMenu" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC36VerifyAboutUsClickContactUs" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC37VerifyAboutUsClickSubmenu" />              -->
+
+                          
+
+<!--                       <class name="corporatesite.testcases.TC38VerifybusinessintelligencePage"/> -->
+
+<!--                       <class name="corporatesite.testcases.TC39VerifybusinessintelligencVldMsg" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC40VerfiybusinessintelligenceForm" />   -->
+
+<!--                       <class name="corporatesite.testcases.TC41VerifybusinessintelligenceFieldVld" /> -->
+
+                                 
+
+<!--                       <class name="corporatesite.testcases.TC42VerifyManageSupportPage"/>  -->
+
+<!--                       <class name="corporatesite.testcases.TC42VerifyManagesupport_DatabasePage"/> -->
+
+<!--                       <class name="corporatesite.testcases.TC43ManageSupport_DatabaseformVldMsg" />  -->
+
+<!--                       <class name="corporatesite.testcases.TC44VerfiyManagesupport_DatabaseForm" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC45VerfiyManagesupport_DatabaseFieldVld" /> -->
+
+                          
+
+                          
+
+<!--                       <class name="corporatesite.testcases.TC46VerifyManageSupportSharepointPage" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC47VerifyManageSupport_SharepointVldMsg" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC48VerfiyManageSupport_SharepointForm" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC49VerfiyManageSupport_SharepointFieldVld" /> -->
+
+             
+
+<!--                       <class name="corporatesite.testcases.TC50VerifyManagesupport_CloudPage" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC51ManageSupport_CloudformVldMsg" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC53VerfiyManagesupport_cloudForm"/> -->
+
+<!--                       <class name="corporatesite.testcases.TC54VerfiyManagesupport_cloudFieldVld" /> -->
+
+ 
+
+ 
+
+ 
+
+<!--                       <class name="corporatesite.testcases.TC55VerifyProAut_NintexAutoPage" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC56VerifyProAut_NintexAutoformvldmsg" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC57VerifyProAut_NintexAutoform" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC58VerifyProAut_NintexFieldVld" /> -->
+
+ 
+
+ 
+
+ 
+
+<!--                       <class name="corporatesite.testcases.TC59VerifyProcessautomation_powerplatformPage" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC60VerifyProcessautomation_powerplatformvldmsg"  /> -->
+
+<!--                       <class name="corporatesite.testcases.TC61VerifyProcessautomation_powerplatform" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC62VerifyProcessautomation_powerplatformfieldvld" /> -->
+
+ 
+
+                                 
+
+<!--                       <class name="corporatesite.testcases.TC63VerifyProAut_RoboticprocessautomationPage" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC64VerifyProAut_Roboticprocessautomationform" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC65VerifyProAut_RoboticprocessautomationVldMsg" /> -->
+
+<!--                       <class name="corporatesite.testcases.TC66VerifyProAut_RoboticprocessautomationFieldVld" /> -->
+
+                          
+
+ 
+
+             
+
+<!--                       <class name="corporatesite.testcases.TC67ToverifypPro_Aut_SharepointworfklowPage" />  -->
+
+<!--                       <class name="corporatesite.testcases.TC68ToverifypPro_Aut_SharepointworkflowVldMsg" />      -->
+
+<!--                       <class name="corporatesite.testcases.TC69ToverifypPro_Aut_SharepointworflowForm" />   -->
+
+<!--                       <class name="corporatesite.testcases.TC70ToverifypPro_Aut_SharepointworkflowFielddVld" />   -->
+
+ 
+
+<!--                <class name="corporatesite.testcases.TC35VerifyAboutUSClickMenu" /> -->
+
+<!--                <class name="corporatesite.testcases.TC36VerifyAboutUsClickContactUs" /> -->
+
+<!--                <class name="corporatesite.testcases.TC37VerifyAboutUsClickSubmenu" />         -->               
+
+<!--                <class name="corporatesite.testcases.TC38VerifybusinessintelligencePage"/> -->
+
+<!--                <class name="corporatesite.testcases.TC39VerifybusinessintelligencVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC40VerfiybusinessintelligenceForm" />   -->
+
+<!--                <class name="corporatesite.testcases.TC41VerifybusinessintelligenceFieldVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC42VerifyManageSupportPage"/>  -->
+
+<!--                <class name="corporatesite.testcases.TC42VerifyManagesupport_DatabasePage"/> -->
+
+<!--                <class name="corporatesite.testcases.TC43ManageSupport_DatabaseformVldMsg" />     -->
+
+<!--                <class name="corporatesite.testcases.TC44VerfiyManagesupport_DatabaseForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC45VerfiyManagesupport_DatabaseFieldVld" /> -->                                               
+
+<!--                <class name="corporatesite.testcases.TC46VerifyManageSupportSharepointPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC47VerifyManageSupport_SharepointVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC48VerfiyManageSupport_SharepointForm" /> -->
+
+<!--                <class name="corporatesite.testcases.TC49VerfiyManageSupport_SharepointFieldVld" /> -->           
+
+<!--                <class name="corporatesite.testcases.TC50VerifyManagesupport_CloudPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC51ManageSupport_CloudformVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC53VerfiyManagesupport_cloudForm"/> -->
+
+<!--                <class name="corporatesite.testcases.TC54VerfiyManagesupport_cloudFieldVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC55VerifyProAut_NintexAutoPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC56VerifyProAut_NintexAutoformvldmsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC57VerifyProAut_NintexAutoform" /> -->
+
+<!--                <class name="corporatesite.testcases.TC58VerifyProAut_NintexFieldVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC59VerifyProcessautomation_powerplatformPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC60VerifyProcessautomation_powerplatformvldmsg"  /> -->
+
+<!--                <class name="corporatesite.testcases.TC61VerifyProcessautomation_powerplatform" /> -->
+
+<!--                <class name="corporatesite.testcases.TC62VerifyProcessautomation_powerplatformfieldvld" /> -->                         
+
+<!--                <class name="corporatesite.testcases.TC63VerifyProAut_RoboticprocessautomationPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC64VerifyProAut_Roboticprocessautomationform" /> -->
+
+<!--                <class name="corporatesite.testcases.TC65VerifyProAut_RoboticprocessautomationVldMsg" /> -->
+
+<!--                <class name="corporatesite.testcases.TC66VerifyProAut_RoboticprocessautomationFieldVld" /> -->
+
+<!--                <class name="corporatesite.testcases.TC67ToverifypPro_Aut_SharepointworfklowPage" />  -->
+
+<!--                <class name="corporatesite.testcases.TC68ToverifypPro_Aut_SharepointworkflowVldMsg" />      -->
+
+<!--                <class name="corporatesite.testcases.TC69ToverifypPro_Aut_SharepointworflowForm" />   -->
+
+<!--                <class name="corporatesite.testcases.TC70ToverifypPro_Aut_SharepointworkflowFielddVld" />   -->
+
+<!--                <class name="corporatesite.testcases.TC71ToverifyApplicationDevelopementPage" />      -->
+
+<!--                <class name="corporatesite.testcases.TC72ApplicationDevelopementPageVldMsg" />     -->
+
+<!--                <class name="corporatesite.testcases.TC73ApplicationDevelopementPageForm" />       -->
+
+<!--                <class name="corporatesite.testcases.TC74ApplicationDevelopementPageFieldVld" />      -->         
+
+<!--                <class name="corporatesite.testcases.TC75VerifyProcessautomation_SharepointinfopatPage" />  -->
+
+<!--                <class name="corporatesite.testcases.TC76VerifyProcessautomation_Infopath_FormvalidationOnBlank" />       -->
+
+<!--                <class name="corporatesite.testcases.TC77VerifyProcessautomation_Infopath_Form" />    -->
+
+<!--                <class name="corporatesite.testcases.TC78ApplicationDevelopementverifySPmigtrationVldMsg"/> -->
+
+<!--                <class name="corporatesite.testcases.TC79VerifyResource_WhitepaperPage"/> -->
+
+<!--                <class name="corporatesite.testcases.TC80VerifyResource_WhitepaperPageClickDownload"/> -->
+
+<!--                <class name="corporatesite.testcases.TC81VerifyResource_NewsRoomPage"/> -->
+
+<!--                <class name="corporatesite.testcases.TC82VerifyResource_NewsRoomPageClickNews"/> -->
+
+<!--                <class name="corporatesite.testcases.TC83VerifyResourceBlogPage" /> -->
+
+             
+
+<!--                <class name="corporatesite.testcases.TC84VerifyPhoneNumber" /> -->
+
+<!--                <class name="corporatesite.testcases.TC85VerifyEmailPopup" /> -->
+
+<!--                <class name="corporatesite.testcases.TC86VerifyWorkingDaysTime" /> -->
+
+<!--                <class name="corporatesite.testcases.TC87VerifySocialNetworkingLinks" /> -->
+
+<!--                <class name="corporatesite.testcases.TC88VerifyLinksUnderRecentPosts" /> -->
+
+<!--                <class name="corporatesite.testcases.TC89VerifyLinksUnderPostsOnClick" /> -->
+
+<!--                <class name="corporatesite.testcases.TC90VerifyDatesUnderRecentPosts" /> -->
+
+<!--                <class name="corporatesite.testcases.TC91VerifyLinksOnClickOfImgUnderRecentPosts" /> -->
+
+<!--                <class name="corporatesite.testcases.TC92VerifyLinkNamesUnderUsefulLinks" /> -->
+
+<!--                <class name="corporatesite.testcases.TC93VerifyUsefulLinksOnClick" /> -->
+
+<!--                 <class name="corporatesite.testcases.TC94VerifySocialLinksFooter" /> -->
+
+<!--                <class name="corporatesite.testcases.TC95VerifyLinkUnderCloudComputingPage" /> -->
+
+<!--                <class name="corporatesite.testcases.TC96VerifyMicrosoftAzureContactUs" /> -->
+
+<!--                <class name="corporatesite.testcases.TC97VerifyMicrosoft365ContactUs" /> -->
+
+<!--                <class name="corporatesite.testcases.TC98VerifyAmazonWebServicesContactUs" /> -->
+
+<!--                <class name="corporatesite.testcases.TC99VerifyServicesSubMenuClick" /> -->
+
+                    
+
+             
+
+              </classes>
+
+       </test>
+
+      
+
+</suite>                  
+
+ 

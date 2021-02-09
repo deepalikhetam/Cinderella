@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [FunctionalTesting]">
+  <listeners>
+    <listener class-name="Listener.TestListener"/>
+  </listeners>
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+<<<<<<< HEAD
+      <class name="corporatesite.testcases.TC12VerifyHomePageCaseStudieDownloadFormSubmit">
+        <methods>
+          <include name="verifyHomePageCaseStudieDownloadFormSubmit_TC12"/>
+          <include name="setApplication"/>
+        </methods>
+      </class> <!-- corporatesite.testcases.TC12VerifyHomePageCaseStudieDownloadFormSubmit -->
+      <class name="corporatesite.testcases.TC11VerifyHomePageCaseStudieDownloadFormVldMsg">
+        <methods>
+          <include name="setApplication"/>
+          <include name="verifyHomePageCaseStudieDownloadFormVldMsg_TC11"/>
+        </methods>
+      </class> <!-- corporatesite.testcases.TC11VerifyHomePageCaseStudieDownloadFormVldMsg -->
+      <class name="corporatesite.testcases.TC13VerifyHomePageContactUsFormVld">
+        <methods>
+          <include name="setApplication"/>
+          <include name="verifyHomePageContactUsFormVld_TC13"/>
+        </methods>
+      </class> <!-- corporatesite.testcases.TC13VerifyHomePageContactUsFormVld -->
+      <class name="corporatesite.testcases.TC08VerfiyHomePageAboutCompanyReadMoreBtnOnClick">
+        <methods>
+          <include name="setApplication"/>
+          <include name="verfiyHomePageAboutCompanyReadMoreBtnOnClick_TC08"/>
+        </methods>
+      </class> <!-- corporatesite.testcases.TC08VerfiyHomePageAboutCompanyReadMoreBtnOnClick -->
+      <class name="corporatesite.testcases.TC09VerifyHomePageServices">
+        <methods>
+          <include name="setApplication"/>
+          <include name="verifyHomePageBestServices_TC09"/>
+        </methods>
+      </class> <!-- corporatesite.testcases.TC09VerifyHomePageServices -->
+      <class name="corporatesite.testcases.TC14VerifyHomePageContactUsFormOnSubmit">
+        <methods>
+          <include name="verifyHomePageContactUsFormOnSubmit_TC14"/>
+          <include name="setApplication"/>
+        </methods>
+      </class> <!-- corporatesite.testcases.TC14VerifyHomePageContactUsFormOnSubmit -->
+      <class name="corporatesite.testcases.TC10VerfiyHomePageIntranetSolutionBtn">
+        <methods>
+          <include name="verfiyHomePageIntranetSolutionBtn_TC10"/>
+          <include name="setApplication"/>
+        </methods>
+      </class> <!-- corporatesite.testcases.TC10VerfiyHomePageIntranetSolutionBtn -->
+=======
+      <class name="corporatesite.testcases.TC07VerifyHomePageMenu">
+        <methods>
+          <include name="verifyHomePageMenu_TC07"/>
+          <include name="setApplication"/>
+          <include name="closetest"/>
+        </methods>
+      </class> <!-- corporatesite.testcases.TC07VerifyHomePageMenu -->
+>>>>>>> 05c39224112372359536c916a5e9a1d62631f231
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [FunctionalTesting] -->
