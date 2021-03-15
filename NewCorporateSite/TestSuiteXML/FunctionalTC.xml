@@ -866,13 +866,13 @@
 
 <!--                <class name="corporatesite.testcases.TC95VerifyLinkUnderCloudComputingPage" /> -->
 
-<!--                <class name="corporatesite.testcases.TC96VerifyMicrosoftAzureContactUs" /> -->
+               <class name="corporatesite.testcases.TC96VerifyMicrosoftAzureContactUs" />
 
-<!--                <class name="corporatesite.testcases.TC97VerifyMicrosoft365ContactUs" /> -->
+               <class name="corporatesite.testcases.TC97VerifyMicrosoft365ContactUs" />
 
-<!--                <class name="corporatesite.testcases.TC98VerifyAmazonWebServicesContactUs" /> -->
+               <class name="corporatesite.testcases.TC98VerifyAmazonWebServicesContactUs" />
 
-<!--                <class name="corporatesite.testcases.TC99VerifyServicesSubMenuClick" /> -->
+               <class name="corporatesite.testcases.TC99VerifyServicesSubMenuClick" />
 
                     
 
