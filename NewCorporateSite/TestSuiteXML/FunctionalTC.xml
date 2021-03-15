@@ -22,13 +22,13 @@
 
  
 
-<!--                <class name="corporatesite.testcases.TC01VerifyContactUsPage" /> -->
+               <class name="corporatesite.testcases.TC01VerifyContactUsPage" />
 
-<!--                <class name="corporatesite.testcases.TC02VerifyContactUSFormVldMsg" /> -->
+               <class name="corporatesite.testcases.TC02VerifyContactUSFormVldMsg" />
 
-<!--                <class name="corporatesite.testcases.TC03VerfiyContactUsForm" /> -->
+               <class name="corporatesite.testcases.TC03VerfiyContactUsForm" />
 
-<!--                <class name="corporatesite.testcases.TC04VerifyContactUsStaticFields" /> -->
+               <class name="corporatesite.testcases.TC04VerifyContactUsStaticFields" />
 
 <!--                <class name="corporatesite.testcases.TC05VerifyContactUsFieldVld" /> -->
 
@@ -866,13 +866,13 @@
 
 <!--                <class name="corporatesite.testcases.TC95VerifyLinkUnderCloudComputingPage" /> -->
 
-               <class name="corporatesite.testcases.TC96VerifyMicrosoftAzureContactUs" />
+<!--                <class name="corporatesite.testcases.TC96VerifyMicrosoftAzureContactUs" /> -->
 
-               <class name="corporatesite.testcases.TC97VerifyMicrosoft365ContactUs" />
+<!--                <class name="corporatesite.testcases.TC97VerifyMicrosoft365ContactUs" /> -->
 
-               <class name="corporatesite.testcases.TC98VerifyAmazonWebServicesContactUs" />
+<!--                <class name="corporatesite.testcases.TC98VerifyAmazonWebServicesContactUs" /> -->
 
-               <class name="corporatesite.testcases.TC99VerifyServicesSubMenuClick" />
+<!--                <class name="corporatesite.testcases.TC99VerifyServicesSubMenuClick" /> -->
 
                     
 
